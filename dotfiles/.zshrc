@@ -52,3 +52,6 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
 
 alias ls='ls --color'
+alias l='ls'
+alias ll='ls -l'
+alias lla='ls -la'
