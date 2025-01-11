@@ -1,0 +1,8 @@
+- link:
+    ~/.config: 
+      glob: true
+      path: dotfiles/config/*
+    ~/.zshrc: dotfiles/.zshrc
+    ~/.tmux.conf: dotfiles/.tmux.conf
+
+- clean: ['~', '~/.config']
